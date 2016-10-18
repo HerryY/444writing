@@ -1,6 +1,7 @@
 \documentclass[10pt,serif,draftclsnofoot,onecolumn]{IEEEtran}
 \usepackage{color}
 \usepackage{setspace}
+\usepackage{url}
 \singlespacing
 
 \newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
@@ -20,10 +21,26 @@
 	\author{Steven Silvers \\
 			Oregon State University \\
 			CS 444 Operating Systems II}
-		
+	\pagenumbering{gobble}	
 	\maketitle
 	\end{titlepage}
 	\newpage
-			Hello World!
+	\pagenumbering{arabic}
+	\par
+			Process implementation in Windows, FreeBSD and Linux differ in some ways but are similar in many others. An Example of this is that Windows, FreeBSD and Linux all store processes in memory as structs, such as the task\_struct in Linux\cite{2} or the Process Environment Block(PEB) structure in Windows\cite{3}. Another similarity between Windows, FreeBSD and Linux is that new processes inherit security permissions of their parent process\cite{4}. What this means is that if a parent process doesn't have permission to view a particular file, any process created by that parent also cannot view that particular file.
+	\newline
+	\par
+			A major way that FreeBSD and Linux differ from Windows is how they create new processes. In Linux and FreeBSD new processes can only be created when an existing process makes a call to the system call fork() which creates a duplicate process called a child process, which can then be overwritten with the new process to be ran using the system call exec() in Linux or execve() in FreeBSD\cite{1}. In the Windows operating system the fork() and exec() system calls are combined into a single system call named CreateProcess()\cite{4}. While this simplifies creating new processes in Windows, should the situation arise where you wish to only call fork() without the exec() you can do this in Linux and FreeBSD but not in Windows.
+	\newline
+	\par
+			Threads are used fairly similarly in Windows, FreeBSD and Linux. A thread is what the operating system assigns processing time to, and any one process could have one or multiple threads related to it. Windows, FreeBSD and Linux all have the capability of running threads in two different modes, user mode and kernel mode\cite{1}. When a thread is executing application code it will operate in user mode, which is a protection mode with fewer privileges than kernel mode. When a thread makes a request for services from the operating system it will operate in kernel mode. The purpose of having the two separate modes is to protect the system from possible damage when running an application. There is no point in having your system exposed to outside applications when it doesn't need to be, so it is best to keep it protected.
+			
+			
+	\newpage
+
+
+	\bibliography{writing1bib}
+	\bibliographystyle{ieeetr}
+
 
 \end{document}
