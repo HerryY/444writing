@@ -1,0 +1,43 @@
+\documentclass[10pt,serif,draftclsnofoot,onecolumn]{IEEEtran}
+\usepackage{color}
+\usepackage{setspace}
+\usepackage{url}
+\singlespacing
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\begin{document}
+	\begin{titlepage}
+
+
+	\title{ \normalsize \textsc{}
+			\\ [2.0cm]
+			\HRule{0.5pt} \\
+			\LARGE \textbf{\uppercase{Writing topic two}}
+			\\ \normalsize \textsc{I/O and Provided Functionality}
+			\HRule{2pt} \\ [0.5cm]
+			\normalsize \today \vspace*{5\baselineskip}}
+	\date{10/16/2016}
+	
+	\author{Steven Silvers \\
+			Oregon State University \\
+			CS 444 Operating Systems II}
+	\pagenumbering{gobble}	
+	\maketitle
+	\end{titlepage}
+	\newpage
+	\pagenumbering{arabic}
+	\section{Provided Functionality in Linux}
+	\par
+			The Linux operating system provides a lot of useful built-in functionality including popular data structures, common algorithms and various security and cryptographic features\cite{2}. Data structures are seen commonly throughout the Linux kernel and are defined in header files in the include directory. Things like sockets, network devices, files and PCI buses are all represented and described by data structures built in to the Linux kernel \cite{1}. Without these data structures in place the kernel would not be able to interact with the various devices properly. Linked Lists in the Linux kernel are implemented differently from the traditional linked list where the data field is part of the node structure. In the kernel version, there is a data type called "list\_head" defined in the types.h file\cite{2}. This data type is used to embed the list into the data, as opposed to the method mentioned before where the data is embedded into the list. This method combined with how the C language can be manipulated makes the kernel's implementation of linked lists completely type safe.
+	\newline
+	\newline
+	\par
+		
+	\newpage
+
+
+	\bibliography{writing2bib}
+	\bibliographystyle{ieeetr}
+
+
+\end{document}
