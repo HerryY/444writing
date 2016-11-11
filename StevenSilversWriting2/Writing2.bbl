@@ -8,4 +8,30 @@ K.~McGrath, {\em Operating Systems}.
 D.~A. Rusling, {\em The Linux Kernel}.
 \newblock 0.8-3~ed., 1999.
 
+\bibitem{3}
+R.~Landley, ``Red-black trees (rbtree) in linux.''
+  \url{https://www.kernel.org/doc/Documentation/rbtree.txt}.
+\newblock Accessed: 11-11-2016.
+
+\bibitem{4}
+``Kernel crypto api interface specification.''
+  \url{http://www.chronox.de/crypto-API/crypto/intro.html}.
+\newblock Accessed: 11-11-2016.
+
+\bibitem{5}
+``Linux and cryptography.''
+  \url{http://www.antipope.org/charlie/old/linux/shopper/167.crypto.html}.
+\newblock Accessed: 11-11-2016.
+
+\bibitem{6}
+``Linux vs. windows device driver model: architecture, apis and build
+  environment comparison.''
+  \url{http://xmodulo.com/linux-vs-windows-device-driver-model.html}.
+\newblock Accessed: 11-11-2016.
+
+\bibitem{7}
+G.~V. N.-N. Marshall Kirk~McMusick, {\em Design and Implementation of the
+  FreeBSD Operating System}.
+\newblock Addison-Wesley, 2nd~ed., 2015.
+
 \end{thebibliography}

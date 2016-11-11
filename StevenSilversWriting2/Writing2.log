@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.16)  5 NOV 2016 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.16)  11 NOV 2016 14:27
 entering extended mode
 **./Writing2.tex
 (Writing2.tex
@@ -181,22 +181,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-[1] (Writing2.bbl) [2] (Writing2.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+[2] (Writing2.bbl
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--31
+[]\OT1/ptm/m/n/8 ``Linux vs. win-dows de-vice driver model: ar-chi-tec-ture, ap
+is and build en-vi-ron-ment com-par-i-son.'' $http : / / xmodulo . com /
+ []
+
+) [3] (Writing2.aux) ) 
 Here is how much of TeX's memory you used:
- 1899 strings out of 493334
- 30616 string characters out of 3139251
- 88477 words of memory out of 3000000
- 5470 multiletter control sequences out of 15000+200000
- 31911 words of font info for 61 fonts, out of 3000000 for 9000
+ 1919 strings out of 493334
+ 30783 string characters out of 3139251
+ 94492 words of memory out of 3000000
+ 5484 multiletter control sequences out of 15000+200000
+ 33734 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 26i,6n,19p,1131b,149s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Writing2.pdf (3 pages, 38838 bytes).
+ 26i,6n,19p,1324b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
+enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on Writing2.pdf (4 pages, 46997 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
