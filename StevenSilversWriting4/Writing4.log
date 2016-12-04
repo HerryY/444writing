@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.16)  3 DEC 2016 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.16)  3 DEC 2016 23:19
 entering extended mode
 **./Writing4.tex
 (Writing4.tex
@@ -191,18 +191,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
-[1] (Writing4.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+[1] [2] (Writing4.bbl
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 9.
-) [2] (Writing4.aux) ) 
+) [3] (Writing4.aux) ) 
 Here is how much of TeX's memory you used:
  1914 strings out of 493334
  30753 string characters out of 3139251
- 91480 words of memory out of 3000000
+ 93480 words of memory out of 3000000
  5479 multiletter control sequences out of 15000+200000
  33734 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -211,9 +216,9 @@ Here is how much of TeX's memory you used:
 enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on Writing4.pdf (3 pages, 42026 bytes).
+Output written on Writing4.pdf (4 pages, 44314 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
