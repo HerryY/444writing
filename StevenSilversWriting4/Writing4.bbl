@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{2}
+K.~McGrath, {\em Operating Systems}.
+\newblock Top Hat, 2016.
+
+\bibitem{3}
+T.~Jones, ``Anatomy of linux synchronization methods.''
+  \url{http://www.ibm.com/developerworks/library/l-linux-synchronization/}.
+\newblock Accessed: 12-3-2016.
+
+\bibitem{5}
+D.~S.~M. Russinovich, {\em Windows Internals}.
+\newblock Microsoft Press, 6th~ed., 2012.
+
+\end{thebibliography}

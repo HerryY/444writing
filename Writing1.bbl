@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{2}
+K.~McGrath, {\em Operating Systems}.
+\newblock Top Hat, 2016.
+
+\bibitem{3}
+``Microsoft developer resources: Peb structure.''
+  \url{https://msdn.microsoft.com/en-us/library/windows/desktop/aa813706(v=vs.85).aspx}.
+\newblock Accessed: 10-17-2016.
+
+\bibitem{4}
+``Microsoft developer resources: Createprocess function.''
+  \url{https://msdn.microsoft.com/en-us/library/windows/desktop/ms682425(v=vs.85).aspx}.
+\newblock Accessed: 10-17-2016.
+
+\bibitem{1}
+G.~V. N.-N. Marshall Kirk~McMusick, {\em Design and Implementation of the
+  FreeBSD Operating System}.
+\newblock Addison-Wesley, 2nd~ed., 2015.
+
+\bibitem{5}
+``Microsoft developer resources: Createprocess scheduler.''
+  \url{https://msdn.microsoft.com/en-us/library/windows/desktop/ms685100(v=vs.85).aspx}.
+\newblock Accessed: 10-17-2016.
+
+\bibitem{6}
+``Inside the linux 2.6 completely fair scheduler.''
+  \url{http://www.ibm.com/developerworks/linux/library/l-completely-fair-scheduler/}.
+\newblock Accessed: 10-17-2016.
+
+\end{thebibliography}
