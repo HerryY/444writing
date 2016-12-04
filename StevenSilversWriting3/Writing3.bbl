@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{1}
+S.~S. A.~W. Lars~Wirzenius, Joanna~Oja, ``Linux system administrators guide.''
+  \url{http://www.tldp.org/LDP/sag/html/filesystems.html}.
+\newblock Accessed: 11-26-2016.
+
+\bibitem{2}
+T.~Jones, ``Anatomy of linux journaling file systems.''
+  \url{http://www.ibm.com/developerworks/library/l-journaling-filesystems/}.
+\newblock Accessed: 11-26-2016.
+
+\bibitem{4}
+T.~F.~D. Project, ``Freebsd handbook, chapter 19.''
+  \url{https://www.freebsd.org/doc/handbook/index.html}.
+\newblock Accessed: 11-26-2016.
+
+\end{thebibliography}
