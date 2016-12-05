@@ -1,5 +1,5 @@
 \contentsline {section}{\numberline {I}Introduction}{1}
-\contentsline {section}{\numberline {II}Threads, Processing and CPU Scheduling}{1}
+\contentsline {section}{\numberline {II}Threads, Processes and CPU Scheduling}{1}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Scheduling}{1}
 \contentsline {section}{\numberline {III}I/O and Provided Functionality}{2}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Provided Functionality in Linux}{2}
@@ -8,9 +8,9 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Filesystem Overview}{3}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}File Systems in Linux}{4}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}File Systems in Windows}{4}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Comparison}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Comparison}{5}
 \contentsline {section}{\numberline {V}Interrupts and Synchronization}{5}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Interrupts and Synchronization in Linux}{5}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Interrupts and Synchronization in Windows}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Interrupts and Synchronization in Windows}{6}
 \contentsline {section}{\numberline {VI}Conclusion}{6}
 \contentsline {section}{References}{7}

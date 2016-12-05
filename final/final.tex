@@ -32,7 +32,10 @@
 	\par	
 	This document takes a look at various topics of operating systems and how they are implemented in Windows, Linux and FreeBSD. Covered topics include CPU scheduling, I/O, Provided Functionality, Filesystems, Interrupts and Synchronization. Many similarities were found in FreeBSD and Linux as both are based on UNIX, with most differences found being between Windows and the two UNIX based systems.
 	
-\section{Threads, Processing and CPU Scheduling}
+\section{Threads, Processes and CPU Scheduling}
+	\par
+	Threads, Processes and CPU Scheduling are the base level of how operating systems execute programs and applications. The overall concept of these topics are fairly uniform over all operating systems but vary greatly when it comes to actual implementation.
+	\newline
 	\par
 	Process implementation in Windows, FreeBSD and Linux differ in some ways but are similar in many others. An Example of this is that Windows, FreeBSD and Linux all store processes in memory as structs, such as the task\_struct in Linux\cite{2} or the Process Environment Block(PEB) structure in Windows\cite{3}. Another similarity between Windows, FreeBSD and Linux is that new processes inherit security permissions of their parent process\cite{4}. What this means is that if a parent process doesn't have permission to view a particular file, any process created by that parent also cannot view that particular file.
 	\newline
@@ -58,6 +61,8 @@
 	Scheduling practices vary less from operating system to operating system and more from the different goals of the operating system. For example, a Linux system and a Windows system both configured to be general use operating systems will schedule tasks more similarly than say two Linux systems where one is general use and the other is a mainframe. Two different operating systems both focused on general use would need to be much more focused on multiprogramming because users typically want to use more than one application at a time, whereas the mainframe system would be more focused on completing tasks quickly and wouldn't really care to appear to be running more than one application at a time.
 	
 \section{I/O and Provided Functionality}
+	\par
+	I/O is the name for when any peripheral hardware device interacts with the operating system, either by requesting a service, or by inputting data. examples of I/O devices are keyboards, mice, monitors and disk drives. Provided Functionality is a library of functions and other useful tools provided by an operating system. These tools aid a user in writing programs that need to interact with the operating system.
 	\subsection{Provided Functionality in Linux}
 	\par
 	The Linux operating system provides a lot of useful built-in functionality including popular data structures, common algorithms and various security and cryptographic features\cite{2}. Data structures are seen commonly throughout the Linux kernel and are defined in header files in the include directory. Things like sockets, network devices, files and PCI buses are all represented and described by data structures built in to the Linux kernel \cite{7}. Without these data structures in place the kernel would not be able to interact with the various devices properly. Linked Lists in the Linux kernel are implemented differently from the traditional linked list where the data field is part of the node structure. In the kernel version, there is a data type called "list\_head" defined in the types.h file\cite{2}. This data type is used to embed the list into the data, as opposed to the method mentioned before where the data is embedded into the list. This method combined with how the C language can be manipulated makes the kernel's implementation of linked lists completely type safe.
@@ -116,6 +121,8 @@
 	\par
 	The implementation of file systems in Linux and Windows can be quite different, however they still have many of the same features. File systems are one of the single most important aspects of an operating system functionality and are still simple enough for the average computer user to be able to understand the basics and use.
 \section{Interrupts and Synchronization}
+	\par
+	Interrupts are how operating systems typically handle I/O from hardware devices. If interrupts weren't used, the operating system would have to constantly poll on the hardware device, which would be a waste of resources. Synchronization is how the operating system handles shared resources and prevents race conditions from happening.
 	\subsection{Interrupts and Synchronization in Linux}
 	\par
 	Interrupts in the Linux operating system are split into two main categories, top halves and bottom halves. Top halves deal with hardware events that are timing critical, meaning that a top half interrupt cannot sleep or block. The main function of the top half is to make sure that the hardware is ready to handle the incoming interrupt request.
@@ -143,6 +150,7 @@
 \section{Conclusion}
 	\par
 	After reviewing these operating system concepts and seeing how they are implemented in three different operating systems, differences between them become more noticeable as you get closer to the hardware level. From a high level view, these three operating systems ultimately operate very similarly, I/O manages hardware devices and filesystems allow users to organize and find their files easily. 
+	
 	\newpage
 	\bibliography{writingfinalbib}
 	\bibliographystyle{ieeetr}
