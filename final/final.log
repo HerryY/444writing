@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.28)  4 DEC 2016 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.28)  4 DEC 2016 16:50
 entering extended mode
-**./Writing4.tex
-(Writing4.tex
+**./final.tex
+(final.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(IEEEtran.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -141,8 +141,8 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 LaTeX Warning: Unused global option(s):
     [serif].
 
-(Writing4.aux)
-\openout1 = `Writing4.aux'.
+(final.aux)
+\openout1 = `final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -171,23 +171,22 @@ LaTeX Font Info:    ... okay on input line 8.
 \MPnumerator=\count99
 \makeMPintoPDFobject=\count100
 \everyMPtoPDFconversion=\toks16
-) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (final.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `final.toc'.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
-
- []
-
-
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
@@ -196,29 +195,153 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-[1] [2] (Writing4.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+[6] (final.bbl
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
-) [3] (Writing4.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
+[]\OT1/ptm/m/n/8 ``Linux vs. win-dows de-vice driver model: ar-chi-tec-ture, ap
+is and build en-vi-ron-ment com-par-i-son.'' $http : / / xmodulo . com /
+ []
+
+) [7] (final.aux) ) 
 Here is how much of TeX's memory you used:
- 1915 strings out of 493333
- 30817 string characters out of 3139190
- 93480 words of memory out of 3000000
- 5479 multiletter control sequences out of 15000+200000
- 33734 words of font info for 67 fonts, out of 3000000 for 9000
+ 1938 strings out of 493333
+ 31043 string characters out of 3139190
+ 94534 words of memory out of 3000000
+ 5496 multiletter control sequences out of 15000+200000
+ 35977 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 26i,6n,19p,1091b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
-<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on Writing4.pdf (4 pages, 44314 bytes).
+ 26i,6n,19p,1322b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:
+/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on final.pdf (9 pages, 72616 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

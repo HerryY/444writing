@@ -1,0 +1,91 @@
+\begin{thebibliography}{10}
+
+\bibitem{2}
+K.~McGrath, {\em Operating Systems}.
+\newblock Top Hat, 2016.
+
+\bibitem{3}
+``Microsoft developer resources: Peb structure.''
+  \url{https://msdn.microsoft.com/en-us/library/windows/desktop/aa813706(v=vs.85).aspx}.
+\newblock Accessed: 10-17-2016.
+
+\bibitem{4}
+``Microsoft developer resources: Createprocess function.''
+  \url{https://msdn.microsoft.com/en-us/library/windows/desktop/ms682425(v=vs.85).aspx}.
+\newblock Accessed: 10-17-2016.
+
+\bibitem{1}
+G.~V. N.-N. Marshall Kirk~McMusick, {\em Design and Implementation of the
+  FreeBSD Operating System}.
+\newblock Addison-Wesley, 2nd~ed., 2015.
+
+\bibitem{5}
+``Microsoft developer resources: Createprocess scheduler.''
+  \url{https://msdn.microsoft.com/en-us/library/windows/desktop/ms685100(v=vs.85).aspx}.
+\newblock Accessed: 10-17-2016.
+
+\bibitem{6}
+``Inside the linux 2.6 completely fair scheduler.''
+  \url{http://www.ibm.com/developerworks/linux/library/l-completely-fair-scheduler/}.
+\newblock Accessed: 10-17-2016.
+
+\bibitem{7}
+D.~A. Rusling, {\em The Linux Kernel}.
+\newblock 0.8-3~ed., 1999.
+
+\bibitem{9}
+R.~Landley, ``Red-black trees (rbtree) in linux.''
+  \url{https://www.kernel.org/doc/Documentation/rbtree.txt}.
+\newblock Accessed: 11-11-2016.
+
+\bibitem{10}
+``Kernel crypto api interface specification.''
+  \url{http://www.chronox.de/crypto-API/crypto/intro.html}.
+\newblock Accessed: 11-11-2016.
+
+\bibitem{11}
+``Linux and cryptography.''
+  \url{http://www.antipope.org/charlie/old/linux/shopper/167.crypto.html}.
+\newblock Accessed: 11-11-2016.
+
+\bibitem{12}
+``Linux vs. windows device driver model: architecture, apis and build
+  environment comparison.''
+  \url{http://xmodulo.com/linux-vs-windows-device-driver-model.html}.
+\newblock Accessed: 11-11-2016.
+
+\bibitem{14}
+S.~S.-A.~W. Lars~Wirzenius, Joanna~Oja, ``Linux system administrators guide.''
+  \url{http://www.tldp.org/LDP/sag/html/filesystems.html}.
+\newblock Accessed: 11-26-2016.
+
+\bibitem{15}
+T.~Jones, ``Anatomy of linux journaling file systems.''
+  \url{http://www.ibm.com/developerworks/library/l-journaling-filesystems/}.
+\newblock Accessed: 11-26-2016.
+
+\bibitem{18}
+U.~Explorer, ``Understanding file systems.''
+  \url{http://www.ufsexplorer.com/und_fs.php}.
+\newblock Accessed: 11-26-2016.
+
+\bibitem{17}
+T.~F.~D. Project, ``Freebsd handbook, chapter 19.''
+  \url{https://www.freebsd.org/doc/handbook/index.html}.
+\newblock Accessed: 11-26-2016.
+
+\bibitem{19}
+M.~Support, ``Overview of fat, hpfs, and ntfs file systems.''
+  \url{https://support.microsoft.com/en-us/kb/100108}.
+\newblock Accessed: 11-26-2016.
+
+\bibitem{21}
+T.~Jones, ``Anatomy of linux synchronization methods.''
+  \url{http://www.ibm.com/developerworks/library/l-linux-synchronization/}.
+\newblock Accessed: 12-3-2016.
+
+\bibitem{22}
+D.~S.~M. Russinovich, {\em Windows Internals}.
+\newblock Microsoft Press, 6th~ed., 2012.
+
+\end{thebibliography}

@@ -1,0 +1,71 @@
+\documentclass[10pt,serif,draftclsnofoot,onecolumn]{IEEEtran}
+\usepackage{color}
+\usepackage{setspace}
+\usepackage{url}
+\singlespacing
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\begin{document}
+	\begin{titlepage}
+
+
+	\title{ \normalsize \textsc{}
+			\\ [2.0cm]
+			\HRule{0.5pt} \\
+			\LARGE \textbf{\uppercase{Writing topic three}}
+			\\ \normalsize \textsc{File Systems}
+			\HRule{2pt} \\ [0.5cm]
+			\normalsize \today \vspace*{5\baselineskip}}
+	\date{10/16/2016}
+	
+	\author{Steven Silvers \\
+			Oregon State University \\
+			CS 444 Operating Systems II}
+	\pagenumbering{gobble}	
+	\maketitle
+	\end{titlepage}
+	\newpage
+	\pagenumbering{arabic}
+	\section{Introduction}
+	\par
+			A file system is the way that a particular operating system uses methods and data structures to manage and keep track of files on the disk\cite{1}. There are numerous file systems available for use, from Windows' New Technology File System(NTFS) to the popular ext3 file system that was built on ext2, keeping most of the file system the same but added journaling.
+	\newline
+	\par
+			Journaling is a file system feature that is most helpful when the computer crashes or has a power failure. File systems that make use of journaling track desired but not  yet committed changes to the file system in a data structure, typically a circular log\cite{2}. This data structure of uncommitted changes is referred to as the journal, and when the system crash or power failure occurs, the data stored in the journal is used to help bring the system back online quicker than if it did not have a journal, and with a lower likelihood that the data will be corrupt. It is for this reason and almost this reason alone that ext3 has become the default file system in Linux, because it is a journaled file system on top of the already popular and feature packed ext2\cite{1}. There are a few options when using a journaled file system, for example you could opt to use a journaled file system that only tracks metadata which would improve the overall performance of the file system but would be more at risk to memory corruption during a crash than using a journal that tracks stored data as well as metadata.
+	\newline
+	\section{File Systems in Linux}
+	\par
+			The Linux operating system supports a wide variety of file systems that all have pros and cons based on what you need out of your system. As Linux is based on UNIX, everything in Linux is considered a file unless it is a process. This means that apart from processes, everything in Linux must be managed by a file system in one way or another. FreeBSD is also based on UNIX meaning there will be many similarities in regards to file system between Linux and FreeBSD. FreeBSD typically uses the traditional UNIX File System(UFS) or the Fast File System(FFS)\cite{5}.
+	\newline
+	\par
+			In a traditional file system, such as ext3, the file system is not aware of the structure of the disks mounted to the kernel. This means that for every disk you had mounted, you would also need one file system mounted to manage that disk. There is however one file system that can manage multiple disks all by itself, and that is the Zettabyte File System or ZFS developed by Sun Microsystems as part of Solaris, but is now owned by Oracle.\newline
+		\par
+			While ZFS is not a Linux file system, it is used in Solaris OS, it is worth mentioning because ZFS is unique in that it combines the volume manager with the file system, which allows ZFS as a file system to see the structure of the disks\cite{4}. This means that ZFS can manage multiple file systems that can work across multiple disks, instead of the usual one file system to one disk system. The biggest advantage of using ZFS is that since it is aware of the physical disks, existing file systems can be grown simply by adding another disk to the memory pool\cite{4}.
+	\newline
+	\par
+			ZFS is packed with many other features that set it apart from typical file systems, such as the fact that ZFS is a 128-bit file system. This means that theoretically the upper bound on the size of a single file is 16 exbibytes which is 2\textsuperscript{64} bytes\cite{4}. ZFS also checksums the entire file tree to ensure data integrity. Each block of memory is checksumed, and the checksum value is then saved with the pointer to the block, not at the actual block itself. This continues on until even the root itself is checksumed creating a Merkle Tree or hash tree of the entire file system, so that the entire pool of memory can be verified. Since the checksum value of a block is stored in its parent block as a pointer, that block can still be verified if good or corrupt regardless of what someone tries to do to modify it\cite{4}.
+	\newline
+	\section{File Systems in Windows}
+	\par
+			Early versions of Windows used the File Allocation Table(FAT) family of file systems, which are widely popular still today for their simplicity and performance\cite{5}. FAT is supported by almost all operating systems including mobile devices. Because almost everything supports FAT, it is commonly used nowadays in flash drives and other portable storage, making it easy to transfer files between a Windows machine and a Mac using portable media. 
+	\newline
+	\par
+			With the introduction of Windows NT came NTFS, which is the current Windows standard for file systems\cite{5}. NTFS uses a master file table to store every file as a file descriptor. This master file table holds all metadata related to a file, such as name, size or allocation\cite{5}. NTFS Was designed to be POSIX compliant, one of the ways NTFS does this is that it supports case sensitive file naming\cite{6}. Another difference between NTFS and FAT is that NTFS offers metadata journaling.
+	\newline
+	\section{Comparison}
+	\par
+			File systems in Linux and Windows ultimately serve the same purpose, helping you the user find what you need saved on your computer, the way they do this has some differences. Linux and Windows have completely structure for how their file systems are implemented. Windows assigns a letter to every drive such as C: or D: and each drive then has its own file system\cite{6}. In Linux all drives are mounted in a single tree as subdirectories with '/' being the top of the tree. While NTFS in Windows supports case sensitive file names, by default  file names in Windows are not case sensitive meaning that the files "school" and "School" both could not be in the same folder as they would be viewed as having the same name. As for Linux and all UNIX based file systems, file names are case sensitive so the files "school" and "School" could exist in the same directory.
+	\newline
+	\par
+			A key difference between Windows and Linux file systems is whether or not the operating system will allow you to modify a file's information while it is open in an application. In Windows when a file is opened, say you're editing a word document in Microsoft Word, you cannot modify the file's name or location from the file explorer as long as that file is open in Word. Linux on the other hand will allow you to modify the files location, name or other related data regardless if it is open in an application or not.
+	\newline
+	\par
+			The implementation of file systems in Linux and Windows can be quite different, however they still have many of the same features. File systems are one of the single most important aspects of an operating system functionality and are still simple enough for the average computer user to be able to understand the basics and use.
+	\newpage
+
+
+	\bibliography{writing3bib}
+	\bibliographystyle{ieeetr}
+
+	
+\end{document}
